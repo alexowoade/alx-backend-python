@@ -1,17 +1,13 @@
 #!/usr/bin/env python3
-"""Type annotated function to sum a list of floats"""
+"""more type annotated functions"""
 from typing import List
 
 
 def sum_list(input_list: List[float]) -> float:
-    """
-    Sums a list of floats.
-
-    Args:
-    input_list (List[float]): A list of floats.
-
-    Returns:
-    float: The sum of the list elements.
+    """sums floats inside list
+    Keyword arguments:
+    input_list -- list of floats
+    Return: sum of list elements
     """
     return sum(input_list)
 
